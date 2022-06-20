@@ -39,18 +39,18 @@ The Intercom source connector supports the following[ sync modes](https://docs.a
 
 ## Supported Streams
 
-* [Admins](https://developers.intercom.com/intercom-api-reference/reference/list-admins) \(Full table\)
-* [Companies](https://developers.intercom.com/intercom-api-reference/reference/list-companies) \(Incremental\)
-  * [Company Segments](https://developers.intercom.com/intercom-api-reference/reference/list-attached-segments-1) \(Incremental\)
-* [Conversations](https://developers.intercom.com/intercom-api-reference/reference/list-conversations) \(Incremental\)
-  * [Conversation Parts](https://developers.intercom.com/intercom-api-reference/reference/retrieve-a-conversation) \(Incremental\)
-* [Data Attributes](https://developers.intercom.com/intercom-api-reference/reference/list-data-attributes) \(Full table\)
-  * [Customer Attributes](https://developers.intercom.com/intercom-api-reference/reference/list-customer-data-attributes) \(Full table\)
-  * [Company Attributes](https://developers.intercom.com/intercom-api-reference/reference/list-company-data-attributes) \(Full table\)
-* [Contacts](https://developers.intercom.com/intercom-api-reference/reference/list-contacts) \(Incremental\)
-* [Segments](https://developers.intercom.com/intercom-api-reference/reference/list-segments) \(Incremental\)
-* [Tags](https://developers.intercom.com/intercom-api-reference/reference/list-tags-for-an-app) \(Full table\)
-* [Teams](https://developers.intercom.com/intercom-api-reference/reference/list-teams) \(Full table\)
+* [Admins](https://developers.intercom.com/intercom-api-reference/reference#list-admins) \(Full table\)
+* [Companies](https://developers.intercom.com/intercom-api-reference/reference#list-companies) \(Incremental\)
+  * [Company Segments](https://developers.intercom.com/intercom-api-reference/reference#list-attached-segments-1) \(Incremental\)
+* [Conversations](https://developers.intercom.com/intercom-api-reference/reference#list-conversations) \(Incremental\)
+  * [Conversation Parts](https://developers.intercom.com/intercom-api-reference/reference#get-a-single-conversation) \(Incremental\)
+* [Data Attributes](https://developers.intercom.com/intercom-api-reference/reference#data-attributes) \(Full table\)
+  * [Customer Attributes](https://developers.intercom.com/intercom-api-reference/reference#list-customer-data-attributes) \(Full table\)
+  * [Company Attributes](https://developers.intercom.com/intercom-api-reference/reference#list-company-data-attributes) \(Full table\)
+* [Contacts](https://developers.intercom.com/intercom-api-reference/reference#list-contacts) \(Incremental\)
+* [Segments](https://developers.intercom.com/intercom-api-reference/reference#list-segments) \(Incremental\)
+* [Tags](https://developers.intercom.com/intercom-api-reference/reference#list-tags-for-an-app) \(Full table\)
+* [Teams](https://developers.intercom.com/intercom-api-reference/reference#list-teams) \(Full table\)
 
 
 ## Performance considerations
