@@ -52,6 +52,18 @@ The Intercom source connector supports the following[ sync modes](https://docs.a
 * [Tags](https://developers.intercom.com/intercom-api-reference/reference#list-tags-for-an-app) \(Full table\)
 * [Teams](https://developers.intercom.com/intercom-api-reference/reference#list-teams) \(Full table\)
 
+## Intercom features
+
+The Intercom source supports both Full Refresh and Incremental syncs. You can choose if this connector will copy only the new or updated data, or all rows in the tables and columns you set up for replication, every time a sync is run.
+
+This Intercom source wraps the [Singer Intercom Tap](https://github.com/singer-io/tap-intercom).
+
+| Feature | Supported? |
+| :--- | :--- |
+| Full Refresh Sync | Yes |
+| Incremental - Append Sync | Yes |
+| SSL connection | Yes |
+| Namespaces | No |
 
 ## Performance considerations
 
